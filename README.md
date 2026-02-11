@@ -50,7 +50,7 @@ apt install openjdk-17-jre-headless -y
 java -version
 ```
 
-### Step 4: Create a New Linux User (Security Best Practice)
+### Step 4: Create a New Linux User and add to sudo group (Security Best Practice)
 
 ```bash
 adduser $USER
@@ -71,7 +71,7 @@ Paste your local machine public SSH key into the `authorized_keys` file.
 Test SSH login:
 
 ```bash
-ssh $USER@209.97.187.212
+ssh $USER@<Droplet public ip>
 ```
 
 ### Step 6: Clone and Build Application (Local Machine)
