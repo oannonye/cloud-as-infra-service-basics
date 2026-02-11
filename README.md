@@ -39,7 +39,7 @@ This project demonstrates how to:
 
 ```bash
 ssh root@<Droplet public ip>
-
+```
 ## 🚀 Deployment Steps (3–10)
 
 ### Step 3: Update Server & Install Java
