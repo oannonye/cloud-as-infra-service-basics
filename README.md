@@ -31,10 +31,11 @@ This project demonstrates how to:
 2. Create a new Ubuntu Droplet.
 3. Add your SSH key during setup (recommended).
 4. Copy the server IP address.
+5. Setup firewall to allow only ssh traffic on port 22
 
 ---
 
 # 🔐 STEP 2: SSH into the Droplet
 
 ```bash
-ssh root@209.97.187.212
+ssh root@<Droplet public ip>
